@@ -1,5 +1,5 @@
 ## php_cfile
-PHP extension, that wraps Windows 64bit file functions to support in older PHP versions
+PHP extension, that wraps Windows 64bit FILE functions to support in older PHP versions
 
 cfile = C/C++ File
 
