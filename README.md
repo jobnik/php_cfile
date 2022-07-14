@@ -28,20 +28,20 @@ Same parameters as in standard built in functions, parameters are mandatory (in 
 Get filesize
 ```php
 /*
-		Find file size for any file.
+	Find file size for any file.
 
-		"cfile_filesize" function usage:
+	"cfile_filesize" function usage:
 
-		IN:
-			fp		: file path (UTF-8 compatible)
-			method	: optional
-				-1	- finds file size using wstat64 (default)
-				0 	- finds file size using GetFileAttributesEx
-				1 	- finds file size using CreateFile
-				2 	- finds file size using FindFirstFile
+	IN:
+		fp		: file path (UTF-8 compatible)
+		method	: optional
+			-1	- finds file size using wstat64 (default)
+			0 	- finds file size using GetFileAttributesEx
+			1 	- finds file size using CreateFile
+			2 	- finds file size using FindFirstFile
 
-		OUT:
-			File size as string, to return large file sizes (> 2GB and up to 9 PetaBytes)
+	OUT:
+		File size as string, to return large file sizes (> 2GB and up to 9 PetaBytes)
 */
 	echo cfile_filesize("filesize.php");	// change for your file path
 ```
